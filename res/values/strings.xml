@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="back">back</string>
+    <string name="add">+</string>
+    <string name="say">说点什么</string>
+    <string name="send">发送</string>
+
+</resources>

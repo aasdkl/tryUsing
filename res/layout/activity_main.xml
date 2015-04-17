@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbb"
+    android:orientation="vertical" >
+
+	<com.example.chat.layouts.NavigateLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	</com.example.chat.layouts.NavigateLayout>
+    
+    <ListView android:id="@+id/msgView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#0000">
+    </ListView>
+    
+    <com.example.chat.layouts.SendLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.chat.layouts.SendLayout>
+    
+</LinearLayout>

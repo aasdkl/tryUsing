@@ -17,6 +17,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainActivity extends Activity {
+	
 	User me;
 	User user;
 	ChatAdapter adapter;
@@ -35,10 +36,10 @@ public class MainActivity extends Activity {
 	}
 
 	private void initMsgs() {
-		user = new User(1, "¶Ô·½");
+		user = new User(1, "å¯¹æ–¹");
 		user.setHeader(R.drawable.ic_launcher);
 		List<Msg> msg = new LinkedList<Msg>();
-		String[] s = {"ºÙ£¡","?","Ò®£¡","°¡²»Ã»ÊÂ£¡²âÊÔºÜ³¤ºÜ³¤ºÜ³¤ºÜ³¤ºÜ³¤ºÜ³¤µÄÒ»¾ä»°o(¨R¿Ú¨Q)oÀ²À²À²£¡"};
+		String[] s = {"å˜¿ï¼","?","è€¶ï¼","å•Šä¸æ²¡äº‹ï¼æµ‹è¯•å¾ˆé•¿å¾ˆé•¿å¾ˆé•¿å¾ˆé•¿å¾ˆé•¿å¾ˆé•¿çš„ä¸€å¥è¯o(â‰§å£â‰¦)oå•¦å•¦å•¦ï¼"};
 		msg.add(new Msg(1, s[0], "2015.01.01 12:00:02", user));
 		msg.add(new Msg(2, s[1], "2015.01.01 12:00:12", me));
 		msg.add(new Msg(3, s[2], "2015.01.01 12:00:22", user));

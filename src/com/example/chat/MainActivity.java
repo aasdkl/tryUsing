@@ -17,7 +17,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainActivity extends Activity {
-
 	User me;
 	User user;
 	ChatAdapter adapter;
